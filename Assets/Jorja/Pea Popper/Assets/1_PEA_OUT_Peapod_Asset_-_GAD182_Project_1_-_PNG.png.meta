@@ -107,11 +107,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 22
-        y: 77
+        y: 73
         width: 952
-        height: 498
+        height: 737
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -124,33 +124,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: 1_PEA_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_1
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 341
-        width: 259
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 57d3a69ef76f959a0800000000000000
-      internalID: -6243688379135148683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5b4cd62772af5f6408773109310de2a9
     internalID: 0
     vertices: []
     indices: 

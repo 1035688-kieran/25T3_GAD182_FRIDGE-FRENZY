@@ -1,16 +1,22 @@
 fileFormatVersion: 2
-guid: 4482ce9796719aa4780ea97f10b286d5
+guid: 280d588a50d3cb84d8647a1a1373465d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5029493289036593823
-    second: 2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_0
+      213: -3446526644174445567
+    second: RIGHT_LEG_Brutal_Bear_Asset_GAD182_Project_1_-PNG 1_0
   - first:
-      213: -4925366549400716818
-    second: 2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_1
+      213: 2002738415207387132
+    second: RIGHT_LEG_Brutal_Bear_Asset_GAD182_Project_1_-PNG 1_1
   - first:
-      213: 3072759493364341767
-    second: 2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_2
+      213: -5164311045898500774
+    second: RIGHT_LEG_Brutal_Bear_Asset_GAD182_Project_1_-PNG 1_2
+  - first:
+      213: -7451225164995687934
+    second: RIGHT_LEG_Brutal_Bear_Asset_GAD182_Project_1_-PNG 1_3
+  - first:
+      213: -1287727647206192097
+    second: RIGHT_LEG_Brutal_Bear_Asset_GAD182_Project_1_-PNG 1_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_0
+      name: RIGHT_LEG_Brutal_Bear_Asset_GAD182_Project_1_-PNG 1_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 73
-        width: 952
-        height: 737
+        x: 111
+        y: 228
+        width: 2714
+        height: 3399
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,8 +127,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16543c24086a33ab0800000000000000
-      internalID: -5029493289036593823
+      spriteID: 1042011174a7b20d0800000000000000
+      internalID: -3446526644174445567
       vertices: []
       indices: 
       edges: []
@@ -131,7 +137,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0ac2c4d7c5b64a0458dfd92e036501fe
+    spriteID: 901ce97578a35404e93e13eb0b185b98
     internalID: 0
     vertices: []
     indices: 
@@ -141,9 +147,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_0: -5029493289036593823
-      2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_1: -4925366549400716818
-      2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_2: 3072759493364341767
+      RIGHT_LEG_Brutal_Bear_Asset_GAD182_Project_1_-PNG 1_0: -3446526644174445567
+      RIGHT_LEG_Brutal_Bear_Asset_GAD182_Project_1_-PNG 1_1: 2002738415207387132
+      RIGHT_LEG_Brutal_Bear_Asset_GAD182_Project_1_-PNG 1_2: -5164311045898500774
+      RIGHT_LEG_Brutal_Bear_Asset_GAD182_Project_1_-PNG 1_3: -7451225164995687934
+      RIGHT_LEG_Brutal_Bear_Asset_GAD182_Project_1_-PNG 1_4: -1287727647206192097
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

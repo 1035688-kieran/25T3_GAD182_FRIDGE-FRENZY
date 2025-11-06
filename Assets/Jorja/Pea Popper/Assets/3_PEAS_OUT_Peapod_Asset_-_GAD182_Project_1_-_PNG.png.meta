@@ -113,11 +113,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 22
-        y: 77
+        y: 73
         width: 952
-        height: 498
+        height: 737
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -130,77 +130,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: 3_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_1
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 342
-        width: 259
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e6b46e4bbc6b9910800000000000000
-      internalID: 1845188024068257504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 3_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_2
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 472
-        width: 259
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b7c75e64f0762390800000000000000
-      internalID: -7843457505893562440
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 3_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_3
-      rect:
-        serializedVersion: 2
-        x: 588
-        y: 567
-        width: 259
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5f7d7d60fcea927d0800000000000000
-      internalID: -2942628677313636363
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 34513f34345cc32448086dee8d4ee64c
     internalID: 0
     vertices: []
     indices: 

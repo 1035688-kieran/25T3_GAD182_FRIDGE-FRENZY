@@ -1,16 +1,19 @@
 fileFormatVersion: 2
-guid: 4482ce9796719aa4780ea97f10b286d5
+guid: 2e7dbbbf6d215294f8155fb57c0bddf0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5029493289036593823
-    second: 2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_0
+      213: 5826268115399657801
+    second: RIGHT_ARM_Brutal_Bear_Asset_GAD182_Project_1_-_PNG 1_0
   - first:
-      213: -4925366549400716818
-    second: 2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_1
+      213: 8391689877759479275
+    second: RIGHT_ARM_Brutal_Bear_Asset_GAD182_Project_1_-_PNG 1_1
   - first:
-      213: 3072759493364341767
-    second: 2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_2
+      213: -7601903013319229676
+    second: RIGHT_ARM_Brutal_Bear_Asset_GAD182_Project_1_-_PNG 1_2
+  - first:
+      213: -9008609192468146124
+    second: RIGHT_ARM_Brutal_Bear_Asset_GAD182_Project_1_-_PNG 1_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_0
+      name: RIGHT_ARM_Brutal_Bear_Asset_GAD182_Project_1_-_PNG 1_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 73
-        width: 952
-        height: 737
+        x: 111
+        y: 228
+        width: 2714
+        height: 3399
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16543c24086a33ab0800000000000000
-      internalID: -5029493289036593823
+      spriteID: 949c4986bff0bd050800000000000000
+      internalID: 5826268115399657801
       vertices: []
       indices: 
       edges: []
@@ -131,7 +134,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0ac2c4d7c5b64a0458dfd92e036501fe
+    spriteID: d30940c494f8a054f93775841fd67ecc
     internalID: 0
     vertices: []
     indices: 
@@ -141,9 +144,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_0: -5029493289036593823
-      2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_1: -4925366549400716818
-      2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_2: 3072759493364341767
+      RIGHT_ARM_Brutal_Bear_Asset_GAD182_Project_1_-_PNG 1_0: 5826268115399657801
+      RIGHT_ARM_Brutal_Bear_Asset_GAD182_Project_1_-_PNG 1_1: 8391689877759479275
+      RIGHT_ARM_Brutal_Bear_Asset_GAD182_Project_1_-_PNG 1_2: -7601903013319229676
+      RIGHT_ARM_Brutal_Bear_Asset_GAD182_Project_1_-_PNG 1_3: -9008609192468146124
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

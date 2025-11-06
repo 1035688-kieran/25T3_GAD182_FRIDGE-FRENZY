@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 4482ce9796719aa4780ea97f10b286d5
+guid: b3be47c43c58ee74b8b793d6abd7b8fb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5029493289036593823
-    second: 2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_0
-  - first:
-      213: -4925366549400716818
-    second: 2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_1
-  - first:
-      213: 3072759493364341767
-    second: 2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_2
+      213: 8335549314156177244
+    second: FULL_Brutal_Bear_Asset_GAD182_Project_1_-_PNG 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_0
+      name: FULL_Brutal_Bear_Asset_GAD182_Project_1_-_PNG 1_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 73
-        width: 952
-        height: 737
+        x: 111
+        y: 228
+        width: 2714
+        height: 3399
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16543c24086a33ab0800000000000000
-      internalID: -5029493289036593823
+      spriteID: c57a70600f1dda370800000000000000
+      internalID: 8335549314156177244
       vertices: []
       indices: 
       edges: []
@@ -131,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0ac2c4d7c5b64a0458dfd92e036501fe
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -141,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_0: -5029493289036593823
-      2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_1: -4925366549400716818
-      2_PEAS_OUT_Peapod_Asset_-_GAD182_Project_1_-_PNG_2: 3072759493364341767
+      FULL_Brutal_Bear_Asset_GAD182_Project_1_-_PNG 1_0: 8335549314156177244
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
