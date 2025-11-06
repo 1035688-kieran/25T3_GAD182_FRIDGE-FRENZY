@@ -267,6 +267,7 @@ GameObject:
   - component: {fileID: 405803571}
   - component: {fileID: 405803570}
   - component: {fileID: 405803569}
+  - component: {fileID: 405803573}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -360,6 +361,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &405803573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405803568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a76e9ff391a44b8499b811c0fca2c27d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctSequenceButtons:
+  - {fileID: 1507165696}
+  - {fileID: 1203761979}
+  - {fileID: 521413996}
 --- !u!1 &514034345
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,6 +656,7 @@ GameObject:
   - component: {fileID: 521413997}
   - component: {fileID: 521413996}
   - component: {fileID: 521413999}
+  - component: {fileID: 521414000}
   m_Layer: 5
   m_Name: Pea3 - Button
   m_TagString: Untagged
@@ -722,6 +740,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 521414000}
+        m_TargetAssemblyTypeName: ButtonPress, Assembly-CSharp
+        m_MethodName: OnButtonPressedOnce
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 405803573}
+        m_TargetAssemblyTypeName: ButtonSequenceManager, Assembly-CSharp
+        m_MethodName: OnButtonPressed
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 521413996}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &521413997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -773,6 +815,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonAudioSource: {fileID: 514034346}
+--- !u!114 &521414000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521413994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66823bd57d5bef1469d5f248548dd055, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myButton: {fileID: 521413996}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1229,6 +1284,7 @@ GameObject:
   - component: {fileID: 1203761980}
   - component: {fileID: 1203761979}
   - component: {fileID: 1203761982}
+  - component: {fileID: 1203761983}
   m_Layer: 5
   m_Name: Pea2 - Button
   m_TagString: Untagged
@@ -1312,6 +1368,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1203761983}
+        m_TargetAssemblyTypeName: ButtonPress, Assembly-CSharp
+        m_MethodName: OnButtonPressedOnce
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 405803573}
+        m_TargetAssemblyTypeName: ButtonSequenceManager, Assembly-CSharp
+        m_MethodName: OnButtonPressed
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1203761979}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1203761980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1363,6 +1443,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonAudioSource: {fileID: 1289470398}
+--- !u!114 &1203761983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203761977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66823bd57d5bef1469d5f248548dd055, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myButton: {fileID: 1203761979}
 --- !u!1 &1289470397
 GameObject:
   m_ObjectHideFlags: 0
@@ -1584,6 +1677,7 @@ GameObject:
   - component: {fileID: 1507165697}
   - component: {fileID: 1507165696}
   - component: {fileID: 1507165699}
+  - component: {fileID: 1507165700}
   m_Layer: 5
   m_Name: Pea1 - Button
   m_TagString: Untagged
@@ -1667,6 +1761,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1507165700}
+        m_TargetAssemblyTypeName: ButtonPress, Assembly-CSharp
+        m_MethodName: OnButtonPressedOnce
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 405803573}
+        m_TargetAssemblyTypeName: ButtonSequenceManager, Assembly-CSharp
+        m_MethodName: OnButtonPressed
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1507165696}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1507165697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1718,6 +1836,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonAudioSource: {fileID: 1981982684}
+--- !u!114 &1507165700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507165694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66823bd57d5bef1469d5f248548dd055, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myButton: {fileID: 1507165696}
 --- !u!1 &1645367880
 GameObject:
   m_ObjectHideFlags: 0
