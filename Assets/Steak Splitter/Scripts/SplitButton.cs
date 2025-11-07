@@ -1,0 +1,48 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+public class SplitButton : MonoBehaviour
+{
+    [SerializeField] SteakSpawner FrozenSteakSpawnPoint;
+
+    public BoxCollider2D myBoxCollider;
+    public Button myButton;
+
+    public int randomTimesPressed = 0;
+    public int actualTimesPressed = 0;
+    
+    void Start()
+    {
+        randomTimesPressed = Random.Range(3, 11);
+
+        myBoxCollider.enabled = true;
+    }
+
+    void Update()
+    {
+        if (actualTimesPressed == randomTimesPressed)
+        {
+            randomTimesPressed = Random.Range(3, 11);
+            actualTimesPressed = 0;
+
+            myBoxCollider.enabled = false;
+
+            myButton.interactable = false;
+        }
+    }
+
+    public void OnButtonPressed()
+    {
+        actualTimesPressed += 1;
+        Debug.Log("Hello");
+    }
+
+    public void ActivateButton()
+    {
+        myButton.interactable = true;
+
+        myBoxCollider.enabled = true;
+
+        FrozenSteakSpawnPoint.GetComponent<SteakSpawner>().SpawnSteak();
+    }
+}
