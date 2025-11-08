@@ -5,7 +5,7 @@ public class SteakSpawner : MonoBehaviour
     public GameObject FrozenSteakPrefab; // Assign your prefab here in the Inspector
     public Transform FrozenSteakSpawnPoint;     // Assign your empty GameObject here in the Inspector
 
-    void Start()
+    public void StartGame()
     {
         // Instantiate the prefab at the position and rotation of the spawnPoint
         if (FrozenSteakPrefab != null && FrozenSteakSpawnPoint != null)

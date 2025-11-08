@@ -51,7 +51,7 @@ public class SplitButton : MonoBehaviour
 
             myBoxCollider.enabled = true;
 
-            FrozenSteakSpawnPoint.GetComponent<SteakSpawner>().SpawnSteak();
+            FrozenSteakSpawnPoint.GetComponent<SteakSpawner>().StartGame();
 
             successfulSplit += 1;
         }
