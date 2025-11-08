@@ -10,7 +10,9 @@ public class SplitButton : MonoBehaviour
 
     public int randomTimesPressed = 0;
     public int actualTimesPressed = 0;
-    
+    public int successfulSplit = 0;
+
+
     void Start()
     {
         randomTimesPressed = Random.Range(3, 11);
@@ -39,10 +41,19 @@ public class SplitButton : MonoBehaviour
 
     public void ActivateButton()
     {
-        myButton.interactable = true;
+        if (successfulSplit == 2)
+        {
+            Debug.Log("Win!");
+        }
+        else
+        {
+            myButton.interactable = true;
 
-        myBoxCollider.enabled = true;
+            myBoxCollider.enabled = true;
 
-        FrozenSteakSpawnPoint.GetComponent<SteakSpawner>().SpawnSteak();
+            FrozenSteakSpawnPoint.GetComponent<SteakSpawner>().SpawnSteak();
+
+            successfulSplit += 1;
+        }
     }
 }
