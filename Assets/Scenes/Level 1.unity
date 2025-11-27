@@ -1039,6 +1039,7 @@ GameObject:
   - component: {fileID: 521413996}
   - component: {fileID: 521413999}
   - component: {fileID: 521414000}
+  - component: {fileID: 521414001}
   m_Layer: 5
   m_Name: Pea3 - Button
   m_TagString: Untagged
@@ -1158,6 +1159,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 521414001}
+        m_TargetAssemblyTypeName: ImagePulse, Assembly-CSharp
+        m_MethodName: Pulse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &521413997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1222,6 +1235,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myButton: {fileID: 521413996}
+--- !u!114 &521414001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521413994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 824c5e26c2322f04eabd485c06a314ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageToPulse: {fileID: 1645367881}
+  pulseScale: 1.2
+  pulseDuration: 0.2
 --- !u!1 &578895827
 GameObject:
   m_ObjectHideFlags: 0
@@ -1892,6 +1920,7 @@ GameObject:
   - component: {fileID: 1203761979}
   - component: {fileID: 1203761982}
   - component: {fileID: 1203761983}
+  - component: {fileID: 1203761984}
   m_Layer: 5
   m_Name: Pea2 - Button
   m_TagString: Untagged
@@ -1999,6 +2028,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1203761984}
+        m_TargetAssemblyTypeName: ImagePulse, Assembly-CSharp
+        m_MethodName: Pulse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1203761980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2063,6 +2104,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myButton: {fileID: 1203761979}
+--- !u!114 &1203761984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203761977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 824c5e26c2322f04eabd485c06a314ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageToPulse: {fileID: 1645367881}
+  pulseScale: 1.2
+  pulseDuration: 0.2
 --- !u!1 &1289470397
 GameObject:
   m_ObjectHideFlags: 0
@@ -2285,6 +2341,7 @@ GameObject:
   - component: {fileID: 1507165696}
   - component: {fileID: 1507165699}
   - component: {fileID: 1507165700}
+  - component: {fileID: 1507165701}
   m_Layer: 5
   m_Name: Pea1 - Button
   m_TagString: Untagged
@@ -2392,6 +2449,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1507165701}
+        m_TargetAssemblyTypeName: ImagePulse, Assembly-CSharp
+        m_MethodName: Pulse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1507165697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2456,6 +2525,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myButton: {fileID: 1507165696}
+--- !u!114 &1507165701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507165694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 824c5e26c2322f04eabd485c06a314ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageToPulse: {fileID: 1645367881}
+  pulseScale: 1.2
+  pulseDuration: 0.2
 --- !u!1 &1523531218
 GameObject:
   m_ObjectHideFlags: 0
