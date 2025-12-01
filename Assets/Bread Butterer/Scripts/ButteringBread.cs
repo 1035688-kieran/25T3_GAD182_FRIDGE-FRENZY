@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.Tilemaps;
 
 public class ButteringBread : MonoBehaviour
@@ -10,6 +12,8 @@ public class ButteringBread : MonoBehaviour
     [SerializeField] GameObject ButteredSectionBread;
     [SerializeField] GameObject ButteredSectionBread1;
     [SerializeField] GameObject ButteredSectionBread2;
+
+    public GameObject CompletionCardTemplate;
 
     public Tile butteredBread;
 
@@ -23,6 +27,8 @@ public class ButteringBread : MonoBehaviour
         ButteredSectionBread.SetActive(false);
         ButteredSectionBread1.SetActive(false);
         ButteredSectionBread2.SetActive(false);
+
+        CompletionCardTemplate.SetActive(false);
     }
 
     public void ButtonPressed()
@@ -54,6 +60,8 @@ public class ButteringBread : MonoBehaviour
             ButteredSectionBread2.SetActive(false);
 
             Paint();
+
+            StartCoroutine(CoroutineTimerforCompletionCard());
         }
     }
 
@@ -62,4 +70,13 @@ public class ButteringBread : MonoBehaviour
         tilemap.SetTile(position, butteredBread);
     }
 
+    private IEnumerator CoroutineTimerforCompletionCard()
+    {
+        yield return new WaitForSeconds(1f);
+        {
+            //after 1 second, reveal the completion card
+            CompletionCardTemplate.SetActive(true);
+            StopCoroutine(CoroutineTimerforCompletionCard());
+        }
+    }
 }
