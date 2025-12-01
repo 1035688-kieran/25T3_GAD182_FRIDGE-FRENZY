@@ -6,8 +6,10 @@ public class SplitButton : MonoBehaviour
     [SerializeField] SteakSpawner FrozenSteakSpawnPoint;
     [SerializeField] SoundEffectsManager SoundsEffectsManager;
 
+
     public BoxCollider2D myBoxCollider;
     public Button myButton;
+    public GameObject CompletionCardTemplate;
 
     public int randomTimesPressed = 0;
     public int actualTimesPressed = 0;
@@ -19,6 +21,7 @@ public class SplitButton : MonoBehaviour
         randomTimesPressed = Random.Range(3, 11);
 
         myBoxCollider.enabled = true;
+        CompletionCardTemplate.SetActive(false);
     }
 
     void Update()
@@ -46,6 +49,7 @@ public class SplitButton : MonoBehaviour
         if (successfulSplit == 2)
         {
             Debug.Log("Win!");
+            CompletionCardTemplate.SetActive(true);
         }
         else
         {
