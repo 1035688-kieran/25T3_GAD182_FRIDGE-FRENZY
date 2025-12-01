@@ -3,7 +3,7 @@ using UnityEngine.Tilemaps;
 
 public class ButteringBread : MonoBehaviour
 {
-    [SerializeField] AudioManager SoundEffectsManager;
+    [SerializeField] SoundEffectsManager SoundsEffectsManager;
 
     public int timesButtered = 0;
 
@@ -27,7 +27,7 @@ public class ButteringBread : MonoBehaviour
 
     public void ButtonPressed()
     {
-        SoundEffectsManager.GetComponent<AudioManager>().Play();
+        SoundsEffectsManager.GetComponent<SoundEffectsManager>().Play();
 
         timesButtered += 1;
 

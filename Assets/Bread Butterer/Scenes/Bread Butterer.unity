@@ -431,6 +431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d49522e5d450a041922bdfa3e72365b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SoundsEffectsManager: {fileID: 1286357371}
   timesButtered: 0
   ButteredSectionBread: {fileID: 1633993816}
   ButteredSectionBread1: {fileID: 502391043}
