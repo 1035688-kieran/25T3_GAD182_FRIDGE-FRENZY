@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SoundEffectsManager : MonoBehaviour
+public class SoundEffectsManagerBreadButterer : MonoBehaviour
 {
     AudioSource aud;
 

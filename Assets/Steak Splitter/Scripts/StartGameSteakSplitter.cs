@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class StartGame : MonoBehaviour
+public class StartGameSteakSplitter : MonoBehaviour
 {
     [SerializeField] SteakSpawner FrozenSteakSpawnPoint;
 
