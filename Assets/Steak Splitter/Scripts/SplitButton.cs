@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class SplitButton : MonoBehaviour
 {
     [SerializeField] SteakSpawner FrozenSteakSpawnPoint;
-    [SerializeField] SoundEffectsManager SoundsEffectsManager;
+    [SerializeField] SoundEffectsManagerSteakSplitter SoundsEffectsManager;
 
 
     public BoxCollider2D myBoxCollider;
@@ -41,7 +41,7 @@ public class SplitButton : MonoBehaviour
     {
         actualTimesPressed += 1;
         Debug.Log("Hello");
-        SoundsEffectsManager.GetComponent<SoundEffectsManager>().Play();
+        SoundsEffectsManager.GetComponent<SoundEffectsManagerSteakSplitter>().Play();
     }
 
     public void ActivateButton()

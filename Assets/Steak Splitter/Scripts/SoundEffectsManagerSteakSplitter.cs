@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SoundEffectsManagerBreadButterer : MonoBehaviour
+public class SoundEffectsManagerSteakSplitter : MonoBehaviour
 {
     AudioSource aud;
 
