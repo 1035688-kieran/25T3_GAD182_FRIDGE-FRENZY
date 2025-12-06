@@ -480,7 +480,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &710679755
 AudioSource:
   m_ObjectHideFlags: 0
@@ -740,13 +740,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FrozenSteakSpawnPoint: {fileID: 77613995}
-  SoundsEffectsManager: {fileID: 1464617575}
+  SoundsEffectsManager: {fileID: 0}
   myBoxCollider: {fileID: 993320923}
   myButton: {fileID: 837457745}
   CompletionCardTemplate: {fileID: 4772529324213655751}
   randomTimesPressed: 0
   actualTimesPressed: 0
   successfulSplit: 0
+--- !u!114 &872920575 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8941766791363320275, guid: b3c6ccc35f4e29149b38226e4457780f, type: 3}
+  m_PrefabInstance: {fileID: 4915088675870314449}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &993320922
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,6 +1161,7 @@ GameObject:
   - component: {fileID: 1487342907}
   - component: {fileID: 1487342906}
   - component: {fileID: 1487342905}
+  - component: {fileID: 1487342909}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1242,6 +1254,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1487342909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487342904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a845fb25954bfef44a3ec885e424db63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  congratsPanel: {fileID: 4772529324213655751}
+  nextLevelButton: {fileID: 872920575}
 --- !u!1 &1552542144
 GameObject:
   m_ObjectHideFlags: 0
