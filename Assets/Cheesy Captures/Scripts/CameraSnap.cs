@@ -21,6 +21,9 @@ public class CameraSnap : MonoBehaviour
 
     private int score = 0;                // Current score (ironic cause i couldnt get scoreboard working)
 
+    public GameOverManager gameOverManager;
+
+
     void Start()
     {
         // Initialize score UI
