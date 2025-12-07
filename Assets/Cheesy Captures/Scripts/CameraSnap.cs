@@ -7,7 +7,10 @@ public class CameraSnap : MonoBehaviour
     public float moveSpeed = 5f;          // Keyboard movement speed
     public float touchSensitivity = 0.01f; // Touch movement sensitivity
 
-   
+    public AudioSource cameraAudioSource;   // Plays the sound
+    public AudioClip cameraFlashSound;      // The actual sound file
+
+
     public float captureRadius = 0.5f;    // Radius around screen center to detect Cheese Creatures
     public LayerMask cheeseCreatureLayer; // Layer for Cheese Creature detection
     public int scorePerCatch = 10;        // Score for each Cheese Creature captured
@@ -69,10 +72,12 @@ public class CameraSnap : MonoBehaviour
             Debug.Log("Cheese Creature captured: " + hit.name);
             score += scorePerCatch;
 
-            // Remove the captured Cheese Creature from the scene
+            // Play camera flash sound
+            if (cameraAudioSource != null && cameraFlashSound != null)
+                cameraAudioSource.PlayOneShot(cameraFlashSound);
+
             Destroy(hit.gameObject);
 
-            // Update score UI
             if (scoreText != null)
                 scoreText.text = "Score: " + score;
         }

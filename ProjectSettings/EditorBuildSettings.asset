@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Bread Butterer/Scenes/Level 4.unity
     guid: 7a99f86870cfed34ebd2873f979208b6
+  - enabled: 1
+    path: Assets/Cheesy Captures/Level 5.unity
+    guid: 294ebdd05a3a4b648836b7264a427fe6
+  - enabled: 1
+    path: Assets/ORGANIC ORGANISATION/Level 6.unity
+    guid: b4f3c452db02d114087ca095c4fb849e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
