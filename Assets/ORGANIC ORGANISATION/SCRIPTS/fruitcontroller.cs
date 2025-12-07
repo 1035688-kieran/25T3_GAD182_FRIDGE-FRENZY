@@ -4,9 +4,16 @@ public class fruitcontroller : MonoBehaviour
 {
     [SerializeField] private string intheCloud = "yes";
     private bool hasMerged = false; // prevent double merging
+    public AudioSource fruitAudioSource;
+    public AudioClip dropClip;
+    public AudioClip mergeClip;
+    public GameObject AudioPlayerPrefab;
 
     private void Start()
     {
+
+        fruitAudioSource = GetComponent<AudioSource>();
+
         if (transform.position.y < 3.5f)
             intheCloud = "no";
     }
@@ -27,6 +34,11 @@ public class fruitcontroller : MonoBehaviour
     {
         GetComponent<Rigidbody2D>().gravityScale = 1;
         intheCloud = "no";
+
+        if (fruitAudioSource != null && dropClip != null)
+        {
+            fruitAudioSource.PlayOneShot(dropClip);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -50,6 +62,13 @@ public class fruitcontroller : MonoBehaviour
                 BasketController basket = FindObjectOfType<BasketController>();
                 int currentFruitIndex = int.Parse(gameObject.tag);
                 BasketController.whichFruit = Mathf.Min(currentFruitIndex + 1, basket.fruitObject.Length - 1);
+
+                if (AudioPlayerPrefab != null && mergeClip != null)
+                {
+                    GameObject audioGO = Instantiate(AudioPlayerPrefab, BasketController.spawnPosition, Quaternion.identity);
+                    audioGO.GetComponent<AudioPlayer>().PlayAndDestroy(mergeClip);
+                }
+
 
                 // Destroy both old fruits
                 Destroy(collision.gameObject);

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 51b3ef69d8c08284e9160a5873df1187
+guid: 2363706516080734fb850bccb976d52c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2271017062888684657
-    second: PEA2_0
+      213: 6273024053398744942
+    second: fridge_image_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PEA2_0
+      name: fridge_image_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 12
-        width: 176
-        height: 169
+        x: 0
+        y: 0
+        width: 539
+        height: 360
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17cb4508cf5448f10800000000000000
-      internalID: 2271017062888684657
+      spriteID: e6f205204224e0750800000000000000
+      internalID: 6273024053398744942
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PEA2_0: 2271017062888684657
+      fridge_image_0: 6273024053398744942
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

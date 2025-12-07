@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement; // So I can reload scene or switch scenes
 
 public class GameManager : MonoBehaviour
 {
-    public float gameDuration = 60f; // 60 seconds
+    public float gameDuration = 25f; // 25 seconds
     public float timer = 0f;
     private bool gameEnded = false;
 
